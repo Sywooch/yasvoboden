@@ -1,0 +1,221 @@
+.left
+{
+	width: 20%;
+	min-height: 400px;
+	float: left;
+}
+
+.left .menu
+{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 15px;
+}
+
+.left .title
+{
+	font-size: 18px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.left .menu td
+{
+	text-align: center;
+}
+
+.right
+{
+	width: 80%;
+	min-height: 400px;
+	float: right;
+}
+
+.right .content
+{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.right .title
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.right .content .admin_img
+{
+	width: 100px;
+}
+
+.right .content .admBtn
+{
+	border: 1px solid black;
+	height: 30px;
+	display: block;
+	max-width: 150px;
+	text-align: center;
+	padding-top: 8px;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.right
+{
+	padding-bottom: 20px;
+}
+
+#category-modal {
+  background: #fff;
+  max-width: 90%;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+}
+
+.sel_block
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+.ulCartegory
+{
+	display: block;
+	float: left;
+	margin-left: 15px;
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+.selBtn
+{
+	display: block;
+	margin: 0 auto;
+}
+
+.ulCartegory li:hover
+{
+	cursor: pointer;
+	background: #ADADAD;
+}
+
+.ulCartegory li.active
+{
+	background: #ADADAD;
+}
+
+.ulCartegory li.disabled
+{
+	color: #ADADAD;
+}
+
+.ulCartegory li.disabled:hover
+{
+	background: none;
+}
+
+.ulCartegory li.disabledRel
+{
+	color: #ADADAD;
+}
+
+.ulCartegory li.disabledRel:hover
+{
+	background: none;
+}
+
+#relCategory li
+{
+	min-width: 300px;
+	height: 30px;
+	font-size: 13px; 
+	display: block;
+}
+
+#relCategory li span.delRel
+{
+	margin-left: 10px;
+	color: red;
+	cursor: pointer;
+	display: inline-block;
+	display: none;
+}
+
+#main
+{
+	font-size: 12px;
+}
+
+.redactor-editor address,
+.redactor-editor blockquote,
+ .redactor-editor dd, .redactor-editor div,
+.redactor-editor dl, .redactor-editor dt, .redactor-editor fieldset, .redactor-editor form,
+.redactor-editor frame, .redactor-editor frameset,
+.redactor-editor h1, .redactor-editor h2, .redactor-editor h3, .redactor-editor h4,
+.redactor-editor h5, .redactor-editor h6, .redactor-editor noframes,
+.redactor-editor ol, .redactor-editor p, .redactor-editor ul, .redactor-editor center,
+.redactor-editor dir, .redactor-editor hr, .redactor-editor menu, .redactor-editor pre   { display: block; unicode-bidi: embed }
+.redactor-editor li              { display: list-item }
+.redactor-editor head            { display: none }
+.redactor-editor table           { display: table }
+.redactor-editor tr              { display: table-row }
+.redactor-editor thead           { display: table-header-group }
+.redactor-editor tbody           { display: table-row-group }
+.redactor-editor tfoot           { display: table-footer-group }
+.redactor-editor col             { display: table-column }
+.redactor-editor colgroup        { display: table-column-group } 
+.redactor-editor td, .redactor-editor th          { display: table-cell }
+.redactor-editor caption         { display: table-caption }
+.redactor-editor th              { font-weight: bolder; text-align: center }
+.redactor-editor caption         { text-align: center }
+.redactor-editor h1              { font-size: 2em; margin: .67em 0 }
+.redactor-editor h2              { font-size: 1.5em; margin: .75em 0 }
+.redactor-editor h3              { font-size: 1.17em; margin: .83em 0 }
+.redactor-editor h4, .redactor-editor p,
+.redactor-editor blockquote, .redactor-editor ul,
+.redactor-editor fieldset, .redactor-editor form,
+.redactor-editor ol, .redactor-editor dl, .redactor-editor dir,
+.redactor-editor menu            { margin: 1.12em 0 }
+.redactor-editor h5              { font-size: .83em; margin: 1.5em 0 }
+.redactor-editor h6              { font-size: .75em; margin: 1.67em 0 }
+.redactor-editor h1, .redactor-editor h2, .redactor-editor h3, .redactor-editor h4,
+.redactor-editor h5, .redactor-editor h6, .redactor-editor b,
+.redactor-editor strong          { font-weight: bolder }
+.redactor-editor blockquote      { margin-left: 40px; margin-right: 40px }
+.redactor-editor i, .redactor-editor cite, .redactor-editor em,
+.redactor-editor var,.redactor-editor address    { font-style: italic }
+.redactor-editor pre, .redactor-editor tt, .redactor-editor code,
+.redactor-editor kbd, .redactor-editor samp       { font-family: monospace }
+.redactor-editor pre             { white-space: pre }
+.redactor-editor button, .redactor-editor textarea,
+.redactor-editor input, .redactor-editor select   { display: inline-block }
+.redactor-editor big             { font-size: 1.17em }
+.redactor-editor small, .redactor-editor sub, .redactor-editor sup { font-size: .83em }
+.redactor-editor sub             { vertical-align: sub }
+.redactor-editor sup             { vertical-align: super }
+.redactor-editor table           { border-spacing: 2px; }
+.redactor-editor thead, .redactor-editor tbody,
+.redactor-editor tfoot           { vertical-align: middle }
+.redactor-editor td, .redactor-editor th, .redactor-editor tr      { vertical-align: inherit }
+.redactor-editor s, .redactor-editor strike, .redactor-editor del  { text-decoration: line-through }
+.redactor-editor hr              { border: 1px inset }
+.redactor-editor ol, .redactor-editor ul, .redactor-editor dir,
+.redactor-editor menu, .redactor-editor dd        { margin-left: 40px }
+.redactor-editor ol              { list-style-type: decimal }
+.redactor-editor ol ul, .redactor-editor ul ol,
+.redactor-editor ul ul, .redactor-editor ol ol    { margin-top: 0; margin-bottom: 0 }
+.redactor-editor u, .redactor-editor ins          { text-decoration: underline }
+.redactor-editor br:before       { content: "\A"; white-space: pre-line }
+.redactor-editor center          { text-align: center }
+.redactor-editor :link, .redactor-editor :visited { text-decoration: underline }
+.redactor-editor :focus          { outline: thin dotted invert }
+
